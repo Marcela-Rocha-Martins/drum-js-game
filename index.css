@@ -1,0 +1,89 @@
+/* Define the base font size for the entire document and sets the background image. */
+html {
+    /* Sets the font size to 10 pixels. */
+    font-size: 10px;
+    /* Sets the background image and its position. */
+    background: url('https://images.unsplash.com/photo-1514525253161-7a46d19cd819?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8bXVzaWMlMjBzaG93fGVufDB8fDB8fHww&w=1000&q=80') bottom center;
+    /* Ensures the background image covers the entire element. */
+    background-size: cover;
+  }
+  
+  /* Resets margin, padding, and font family for both body and html elements. */
+  body, html {
+    /* Clears any default margins and padding. */
+    margin: 0;
+    padding: 0;
+    /* Applies a sans-serif font family to the text. */
+    font-family: sans-serif;
+  }
+  
+  /* Creates a flex container for the keys with specific alignment and spacing. */
+  .keys {
+    /* Displays flex layout. */
+    display: flex;
+    /* Allows the flex container to expand. */
+    flex: 1;
+    /* Sets a minimum height of 100 viewport height units. */
+    min-height: 100vh;
+    /* Vertically centers items within the flex container. */
+    align-items: center;
+    /* Horizontally centers items within the flex container. */
+    justify-content: center;
+  }
+  
+  /* Styles for individual keys. */
+  .key {
+    /* Adds a black border to the key. */
+    border: .4rem solid black;
+    /* Rounds the border edges. */
+    border-radius: .5rem;
+    /* Adds space around the key. */
+    margin: 1rem;
+    /* Sets the font size for the key. */
+    font-size: 1.5rem;
+    /* Adds vertical and horizontal padding to the key. */
+    padding: 1rem .5rem;
+    /* Applies a smooth transition effect. */
+    transition: all .07s ease;
+    /* Sets the width of the key. */
+    width: 10rem;
+    /* Centers the text within the key. */
+    text-align: center;
+    /* Sets the text color to white. */
+    color: white;
+    /* Adds a semi-transparent black background. */
+    background: rgba(0, 0, 0, 0.4);
+    /* Adds a shadow behind the text. */
+    text-shadow: 0 0 .5rem black;
+  }
+  
+  /* Adds styling when a key is in the "playing" state. */
+  .playing {
+    /* Enlarges the size of the key. */
+    transform: scale(1.1);
+    /* Changes the border color when playing. */
+    border-color: #ffc600;
+    /* Adds a shadow effect when playing. */
+    box-shadow: 0 0 1rem #ffc600;
+  }
+  
+  /* Styles for the <kbd> tag, used for displaying keyboard keys. */
+  kbd {
+    /* Displays as a block element. */
+    display: block;
+    /* Sets the font size for the keyboard key representation. */
+    font-size: 4rem;
+  }
+  
+  /* Styles for the sound label. */
+  .sound {
+    /* Sets the font size for the sound label. */
+    font-size: 1.2rem;
+    /* Converts the text to uppercase. */
+    text-transform: uppercase;
+    /* Adds spacing between letters. */
+    letter-spacing: .1rem;
+    /* Sets the color for the sound label. */
+    color: #ffc600;
+  }
+  
