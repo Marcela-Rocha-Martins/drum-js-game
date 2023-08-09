@@ -34,7 +34,7 @@ html {
   /* Styles for individual keys. */
   .key {
     /* Adds a black border to the key. */
-    border: .4rem solid black;
+    border: .3rem solid black;
     /* Rounds the border edges. */
     border-radius: .5rem;
     /* Adds space around the key. */
@@ -62,7 +62,7 @@ html {
     /* Enlarges the size of the key. */
     transform: scale(1.1);
     /* Changes the border color when playing. */
-    border-color: #ffc600;
+    border-color: #991984;
     /* Adds a shadow effect when playing. */
     box-shadow: 0 0 1rem #ffc600;
   }
@@ -84,6 +84,6 @@ html {
     /* Adds spacing between letters. */
     letter-spacing: .1rem;
     /* Sets the color for the sound label. */
-    color: #ffc600;
+    color: #ff07d6;
   }
   
